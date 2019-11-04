@@ -1,0 +1,12 @@
+<view>
+  <!-- 表单事件获取表单数据 -->
+  <form bindsubmit="dopost">
+    <label class="item">
+      <text>评论：</text>
+      <input placeholder="请输入评论" name="pinglun" class="input1" />
+    </label>
+    <view>
+      <button type="primary" form-type="submit" class="btn2">添加评论</button>
+    </view>
+  </form>
+</view>

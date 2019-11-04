@@ -1,0 +1,14 @@
+<template name="list">
+    <!-- 中间列表 -->
+<view class="box">
+<view class="boxleft"><image class="img1" src="https://img10.360buyimg.com/n2/s240x240_jfs/t1/62839/3/13499/188438/5dabf7ddE530d6765/9f010f1fb1b49e16.jpg!q70.jpg" /></view>
+<view class="boxright">
+<view class="texttop">{{lists.text}}</view>
+<view class="textcenter">{{lists.rmb}}</view>
+<view class="textbottom">
+    <view class="smallleft">{{lists.where}}</view>
+    <view class="smallright">广告</view>
+</view>
+</view>
+</view>
+</template>>

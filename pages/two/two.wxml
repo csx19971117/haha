@@ -1,0 +1,70 @@
+<view class="tbox">
+    <view class="timg"><image src="https://img10.360buyimg.com/n2/s240x240_jfs/t1/36958/36/4356/152596/5cbd6760Efa28252f/7feca13b43181046.jpg!q70.jpg" class="timg2"/></view>
+    <view class="tbottom">
+        <view class="tleft">￥1724</view>
+        <view class="tright" ><view class="iconfont icon-2"></view></view>
+    </view>
+</view>
+
+<view class="thead">
+<view class="ttwo11">
+    <text class="tgray">关注北京市顺义区旗舰店</text>
+    <text class="tred">立即关注！</text>
+</view>
+</view>
+
+
+<view class="tcenter">
+    <view class="toph">没答案怎么办看不惯自我期满惯自我期满,没答案怎么办看不惯自我期满惯自我期满MK-25478</view>
+    <view class="bottomg">【到手价】,查收大苏打撒旦按实际的阿萨大时代的期满惯自我期满</view>
+</view>
+
+<!-- 评论区 -->
+<view class="changtiao">
+    <view class="ctleft">
+        <view class="sl">好评</view>
+        <view class="sr">好评99%</view>
+    </view>
+    <view class="ctright">
+        <view class="ssl">共4000+条</view>
+        <view class="ssr"><view class="iconfont icon-3"></view></view>
+    </view>
+</view>
+
+
+
+
+
+<scroll-view
+class="sw"
+scroll-y="{{true}}"
+bindscrolltoupper="topFun"
+bindscrolltolower="bottomFun"
+scroll-top="{{topNum}}"
+scroll-with-animation="{{true}}"
+bindscroll="scroll"
+>
+ <block wx:for="{{pinglun}}" wx:key="pinglun">
+     <view class="plq">
+    <view class="plqhead">
+        <view class="plqheadl">
+            <view class="plqheadll">{{item.name}}</view>
+            <view class="plqheadlr">★★★★★</view>
+        </view>
+        <view class="plqheadr">2019-11-17</view>
+    </view>
+    <view class="centerwz">{{item.text}}</view>
+    <view class="plqimage">
+        <image class="plt" src="{{item.img}}"/>
+        <image class="plt" src="{{item.img2}}"/>
+    </view>
+</view>
+ </block>
+ <view bind:tap="goHome" class="{{show}}"><view class="iconfont icon-1"></view></view>
+</scroll-view>
+
+<!-- 底部 -->
+<view class="foot">
+   <navigator hover-class="none" url="/pages/three/three" open-type="navigate"><view class="add"><button type="primary" class="addpl">添加评论</button></view></navigator>
+    <view class="open"><button open-type="share" type="primary" class="btn">分享</button></view>
+</view>

@@ -1,0 +1,32 @@
+<!-- 头部 -->
+<view class="head">
+<view class="two11">点击筛选11.11活动商品</view>
+</view>
+<!-- 头部结束 -->
+
+<!-- <import src="/public/templates/list.wxml"/> -->
+
+<scroll-view
+class="sw"
+scroll-y="{{true}}"
+bindscrolltoupper="topFun"
+bindscrolltolower="bottomFun"
+scroll-top="{{topNum}}"
+scroll-with-animation="{{true}}"
+bindscroll="scroll"
+>
+  <block wx:for="{{lists}}" wx:key="lists">
+    <view class="box">
+<navigator hover-class="none" url="/pages/two/two" open-type="navigate"> <view class="boxleft"><image class="img1" src="{{item.img}}" /></view></navigator>
+<view class="boxright">
+<view class="texttop">{{item.text}}</view>
+<view class="textcenter">{{item.rmb}}</view>
+<view class="textbottom">
+    <view class="smallleft">{{item.where}}</view>
+    <view class="smallright">广告</view>
+</view>
+</view>
+</view>
+</block>
+<view bind:tap="goHome" class="{{show}}"><view class="iconfont icon-1"></view></view>
+</scroll-view>

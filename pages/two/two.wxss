@@ -1,0 +1,262 @@
+.tbox {
+    width: 750rpx;
+    height: 750rpx;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.timg {
+    width: 750rpx;
+    height: 650rpx;
+    /* background-color: coral; */
+}
+
+.tbottom {
+    width: 750rpx;
+    height: 100rpx;
+    /* background-color: cyan; */
+}
+
+.timg2 {
+    width: 750rpx;
+    height: 650rpx;
+}
+
+.tbottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tleft {
+    width: 200rpx;
+    height: 100rpx;
+    /* background-color: darkcyan; */
+    color: red;
+    font-size: 20px;
+    line-height: 100rpx;
+    padding-left: 10px;
+}
+
+.tright {
+    width: 100rpx;
+    height: 100rpx;
+    /* background-color: darkorange; */
+}
+
+@import '/public/style/xing.wxss';
+.thead {
+    display: flex;
+    height: 100rpx;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    justify-content: center;
+}
+
+.ttwo11 {
+    margin-top: 5px;
+    width: 600rpx;
+    height: 80rpx;
+    background-color: gainsboro;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.tgray {
+    color: brown;
+    font-size: 14px;
+}
+
+.tred {
+    padding-left: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.tcenter {
+    height: 200rpx;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.toph {
+    width: 750rpx;
+    height: 120rpx;
+    /* background-color: cornflowerblue; */
+    font-size: 15px;
+    line-height: 55rpx;
+}
+
+.bottomg {
+    width: 750rpx;
+    height: 80rpx;
+    /* background-color: darkgoldenrod; */
+    font-size: 13px;
+    color: darkgray;
+    line-height: 40rpx;
+}
+
+
+/* 评论区css */
+
+.changtiao {
+    width: 750rpx;
+    height: 100rpx;
+    /* background-color: darkkhaki; */
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctleft {
+    width: 200rpx;
+    height: 100rpx;
+    /* background-color: darkturquoise; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sl {
+    padding-left: 2px;
+    line-height: 100rpx;
+}
+
+.sr {
+    line-height: 100rpx;
+    font-size: 13px;
+    color: red;
+    padding-right: 3px;
+}
+
+.ctright {
+    width: 300rpx;
+    height: 100rpx;
+    /* background-color: darkviolet; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.ssl {
+    color: saddlebrown;
+    line-height: 100rpx;
+}
+
+.ssr {
+    line-height: 100rpx;
+    padding-right: 5px;
+}
+
+@import '/public/style/more.wxss';
+
+/* 评论区中 */
+
+.plq {
+    width: 750rpx;
+    height: 500rpx;
+    /* background-color: greenyellow; */
+    border-bottom: 1px solid yellowgreen;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.plqhead {
+    width: 750rpx;
+    height: 100rpx;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plqheadl {
+    width: 400rpx;
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: hotpink; */
+}
+
+.plqheadr {
+    width: 300rpx;
+    height: 100rpx;
+    /* background-color: khaki; */
+}
+
+.plqheadll {
+    line-height: 100rpx;
+}
+
+.plqheadlr {
+    line-height: 100rpx;
+    padding-right: 15px;
+    color: red;
+}
+
+.plqheadr {
+    line-height: 100rpx;
+    color: slategrey;
+    text-align: center;
+}
+
+.centerwz {
+    width: 750rpx;
+    height: 200rpx;
+    /* background-color: snow; */
+    padding: 5px 5px;
+}
+
+.plqimage {
+    width: 750rpx;
+    height: 200rpx;
+    display: flex;
+    /* background-color: thistle; */
+}
+
+.plt {
+    width: 180rpx;
+    height: 180rpx;
+    margin: 5px;
+}
+
+.sw {
+    height: 1200rpx;
+    position: relative;
+}
+
+.hide {
+    opacity: 0;
+    transition: all .6s;
+}
+
+.show {
+    opacity: 1;
+    transition: all .6s;
+    position: absolute;
+    right: 10rpx;
+    bottom: -1800rpx;
+    width: 100rpx;
+    height: 100rpx;
+    color: chartreuse;
+}
+
+@import '/public/style/ff.wxss';
+.foot {
+    width: 750rpx;
+    height: 100rpx;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 250rpx;
+}
+
+.addpl {
+    width: 550rpx;
+}

@@ -1,0 +1,40 @@
+@import '/public/css/list.wxss';
+.head {
+    display: flex;
+    height: 100rpx;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    justify-content: center;
+}
+
+.two11 {
+    margin-top: 5px;
+    width: 600rpx;
+    height: 80rpx;
+    background-color: skyblue;
+    text-align: center;
+    line-height: 80rpx;
+}
+
+.sw {
+    height: 1200rpx;
+    position: relative;
+}
+
+.hide {
+    opacity: 0;
+    transition: all .6s;
+}
+
+.show {
+    opacity: 1;
+    transition: all .6s;
+    position: absolute;
+    right: 10rpx;
+    bottom: -100rpx;
+    width: 100rpx;
+    height: 100rpx;
+    color: chartreuse;
+}
+
+@import '/public/style/ff.wxss';
